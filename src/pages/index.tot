@@ -1,0 +1,55 @@
+<d:html>
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ @preload, ./src/preloads/preload.tot }}
+
+        <script type="text/javascript" src="main.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        {{ @component, ./src/pcomponents/head.tot }}
+
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>{{ @data.title }}</title>
+    </head>
+    <body>
+        {{ @component, ./src/pcomponents/header.tot }}
+        <main>
+            <img id="mainImg" src="/rino256.png">
+            <h1>
+                Fast learning, preprocessing, intuitive web framework
+            </h1>
+            <a href="https://rinojs.org/documents/introduction.html" target="_blank">Document</a>
+            <a href="https://github.com/rinojs/rinojs" target="_blank">Github</a>
+            <a href="https://github.com/rinojs/rinojs/discussions" target="_blank">Github Discussions</a>
+            <a href="https://rinojs.org/sponsor.html" target="_blank">Sponsor</a>
+            <a href="https://rinojs.org/shop.html" target="_blank">Shop</a>
+        </main>
+        {{ @component, ./src/pcomponents/footer.tot }}
+    </body>
+</html>
+</d:html>
+<d:js>
+</d:js>
+<d:css>
+body {
+    margin: 0px;
+}
+
+main {
+    margin: 5% auto auto auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+img {
+    margin: 0px auto;
+    max-width: 256px;
+    width: 100%;
+}
+
+</d:css>

@@ -1,2 +1,11 @@
-# create-rino-template
-The template for create rino
+## Project setup
+
+```
+npm install
+```
+
+## Development
+
+```
+npm run dev
+```

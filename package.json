@@ -1,0 +1,11 @@
+{
+  "name": "rino-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "rinojs": "^1.3.0"
+  }
+}
