@@ -6,6 +6,6 @@
     "dev": "node src/index.js"
   },
   "dependencies": {
-    "rinojs": "^1.3.0"
+    "rinojs": "^1.4.0"
   }
 }
