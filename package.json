@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "rinojs": "^1.5.1",
-    "rinokit": "^0.0.1"
+    "rinokit": "^0.0.2"
   }
 }
