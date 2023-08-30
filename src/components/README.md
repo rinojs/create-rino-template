@@ -1,1 +1,1 @@
-Place your .tot files for non-preprocessed component here
+Place your .tot files for preprocessed component here
