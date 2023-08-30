@@ -6,6 +6,7 @@
     "dev": "node src/index.js"
   },
   "dependencies": {
-    "rinojs": "^1.4.0"
+    "rinojs": "^1.5.1",
+    "rinokit": "^0.0.1"
   }
 }
