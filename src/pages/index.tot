@@ -8,7 +8,7 @@
 
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        {{ @component, ./src/pcomponents/head.tot }}
+        {{ @component, ./src/components/head.tot }}
 
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
         <title>{{ @data.title }}</title>
     </head>
     <body>
-        {{ @component, ./src/pcomponents/header.tot }}
+        {{ @component, ./src/components/header.tot }}
         <main>
             <img id="mainImg" src="/rino256.png">
             <h1>
@@ -29,7 +29,7 @@
             <a href="https://rinojs.org/sponsor.html" target="_blank">Sponsor</a>
             <a href="https://rinojs.org/shop.html" target="_blank">Shop</a>
         </main>
-        {{ @component, ./src/pcomponents/footer.tot }}
+        {{ @component, ./src/components/footer.tot }}
     </body>
 </html>
 </d:html>
