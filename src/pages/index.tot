@@ -3,7 +3,7 @@
 <html>
     <head>
         {{ @preload, ./src/preloads/preload.tot }}
-
+        {{ @preload, ./src/preloads/onload.tot }}
         <script type="text/javascript" src="main.js"></script>
 
         <link rel="stylesheet" href="style.css">
