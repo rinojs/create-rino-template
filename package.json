@@ -2,11 +2,12 @@
   "name": "rino-template",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "node src/index.js"
+    "dev": "node dev.js",
+    "generate": "node generate.js"
   },
   "dependencies": {
-    "rinojs": "^1.5.19",
-    "rinokit": "^0.0.2"
+    "rinojs": "^2.0.1"
   }
 }

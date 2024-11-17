@@ -9,3 +9,9 @@ npm install
 ```
 npm run dev
 ```
+
+## Generate
+
+```
+npm run generate
+```
