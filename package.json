@@ -5,9 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "node dev.js",
-    "generate": "node generate.js"
+    "dev-compress": "node compressImages.js && node dev.js",
+    "generate": "node generate.js",
+    "generate-sitemap": "node generate.js && node sitemap.js",
+    "sitemap": "node sitemap.js",
+    "compress": "node compressImages.js"
   },
   "dependencies": {
-    "rinojs": "^2.0.1"
+    "rinojs": "^2.0.2"
   }
 }
