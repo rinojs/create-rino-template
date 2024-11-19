@@ -10,12 +10,6 @@ npm install
 npm run dev
 ```
 
-## Development after image compression
-
-```
-npm run dev-compress
-```
-
 ## Generate
 
 ```
@@ -36,10 +30,8 @@ npm run sitemap
 
 ## Image compression
 
-By default, destination directory is `/public/images/` and origin directory is `/public_images`. Every run, the destination directory will be removed. So make sure just place all the images in origin directory.
-
-The default formats are `.png, .jpg, .jpeg, .webp, .tiff, .bmp, .svg, .avif, .gif, .ico`
+Double click on `image-compression.bat` or `image-compression.sh` to run image compression app. You can drag and drop files to convert images. You can also run image compression app with: `npm run image`
 
 ```
-npm run compress
+npm run image
 ```
