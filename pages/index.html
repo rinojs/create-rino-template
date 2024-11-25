@@ -3,6 +3,7 @@
   <head>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <script type="text/javascript" src="/scripts/hello.js"></script>
+    <script type="text/javascript" src="/scripts/helloTS.js"></script>
     <link rel="stylesheet" href="/styles/style.css" />
     <meta
       name="description"
@@ -39,6 +40,12 @@
         @type="button"
         type="button"
         onclick="hello.hello()"
+      />
+      <component
+        @name="button"
+        @type="button"
+        type="button"
+        onclick="helloTS.hello()"
       />
       <md> This is written in Markdown! </md>
     </main>
