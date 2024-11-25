@@ -36,18 +36,35 @@
       <h1>Fast learning, preprocessing, intuitive web framework</h1>
       <a href="https://github.com/rinojs/rinojs" target="_blank">Github</a>
       <component
-        @name="button"
-        @type="button"
+        @path="button"
+        @tag="button"
         type="button"
         onclick="hello.hello()"
       />
       <component
-        @name="button"
-        @type="button"
+        @path="button"
+        @tag="button"
         type="button"
         onclick="helloTS.hello()"
       />
-      <md> This is written in Markdown! </md>
+      <script @type="md" type="text/markdown">
+        ## Hello world!
+
+        This is written in Markdown!
+
+        - This is written in Markdown!
+
+        This is somewhat broken...
+      </script>
+      <script @type="ts" type="text/typescript">
+        // This is for templating html content
+        let world: string = "Hello world! from typescript!";
+        result = world;
+      </script>
+      <script @type="js" type="text/javascript">
+        // This is for templating html content
+        result = "Hello world! from javascript!";
+      </script>
     </main>
     <footer></footer>
   </body>
