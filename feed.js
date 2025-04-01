@@ -1,13 +1,14 @@
-import { buildStaticSite } from 'rinojs';
+import { generateContentFeeds } from 'rinojs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
+import config from './rino-config.js';
 
-async function generate ()
+async function feed ()
 {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
-    await buildStaticSite(path.resolve(__dirname, "./"));
+    await generateContentFeeds(path.resolve(__dirname, "./"), config);
 }
 
-generate();
+feed();

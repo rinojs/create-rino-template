@@ -5,6 +5,5 @@ export default {
         url: "https://example.com"
     },
     sitemap: [
-        "https://example.com/example"
     ]
 }
