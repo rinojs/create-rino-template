@@ -13,7 +13,7 @@
     "image": "node image-compression.js"
   },
   "dependencies": {
-    "rinojs": "^2.9.0"
+    "rinojs": "^2.10.0"
   },
   "devDependencies": {
     "typescript": "^5.8.2"

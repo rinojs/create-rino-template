@@ -15,6 +15,11 @@ npm run dev
 ```
 npm run generate
 ```
+## Generate all
+
+```
+npm run generate-all
+```
 
 ## Generate with sitemap
 
@@ -22,10 +27,15 @@ npm run generate
 npm run generate-sitemap
 ```
 
-## Generate sitemap only
+## Generate sitemap
 
 ```
 npm run sitemap
+```
+## Generate feed
+
+```
+npm run feed
 ```
 
 ## Image compression
