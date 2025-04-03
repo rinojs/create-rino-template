@@ -1,4 +1,4 @@
-import { generateContentFeeds } from 'rinojs';
+import { generateProjectFeedFiles } from 'rinojs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -8,7 +8,7 @@ async function feed ()
 {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
-    await generateContentFeeds(path.resolve(__dirname, "./"), config);
+    await generateProjectFeedFiles(path.resolve(__dirname, "./"), config);
 }
 
 feed();
