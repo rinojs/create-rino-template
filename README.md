@@ -38,10 +38,8 @@ npm run sitemap
 npm run feed
 ```
 
-## Image compression
-
-Double click on `image-compression.bat` or `image-compression.sh` to run image compression app. You can drag and drop files to convert images. You can also run image compression app with: `npm run image`
+## Backoffice for content management and image compression
 
 ```
-npm run image
+npm run backoffice
 ```
