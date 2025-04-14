@@ -52,6 +52,19 @@
         }
       </script>
     </nav>
+    <script @type="js" type="text/javascript">
+      const args = JSON.parse(process.argv[1]);
+      const categoryLinks = args.categoryLinks;
+
+      console.log("<nav><ul>");
+      for (const [category, link] of Object.entries(categoryLinks))
+      {
+        const [theme] = category.split("/");
+        if (theme !== "en") continue;
+        console.log(`<li><a href="${link}">${category}</a></li>`);
+      }
+      console.log("</ul></nav>");
+    </script>
   </main>
 </body>
 
