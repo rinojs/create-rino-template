@@ -5,5 +5,9 @@ export default {
         url: "https://example.com"
     },
     sitemap: [
-    ]
+    ],
+    i18n: {
+        defaultLocale: "",
+        locales: []
+    }
 }
