@@ -13,7 +13,7 @@
     "backoffice": "node backoffice.js"
   },
   "dependencies": {
-    "rinojs": "^2.18.0"
+    "rinojs": "^2.19.0"
   },
   "devDependencies": {
     "typescript": "^5.8.2"
